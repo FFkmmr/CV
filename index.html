@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eugen CV</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="Avatar.jpg" alt="Аватар" class="avatar" />
+
+        <div class="info-text">
+          <h1>Шершун Евгений</h1>
+          <p>Я фронтенд разработчик, в планах развиваться до фулл стек.
+            Люблю рисовать, 
+            заниматься спортом и программировать.</p>
+
+          <h4>Мои социальные сети</h4>
+          
+          <a href="https://vk.com/jek2005" target="_blank">VK</a> |
+          <a target="_blank" href="https://t.me/FFkmmr">Telegram</a>
+        </div>
+        
+      </div>
+
+      <div class="card bg-yellow">
+        <style>
+          .vertical-text {
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+            transform: rotate(180deg);
+            white-space: nowrap;
+            margin-left: -15px;
+            font-size: 22px;
+          }
+        
+          .hobbies-container {
+            display: flex;
+            align-items: center;
+          }
+        </style>
+        
+        <h1 style="margin-bottom: 0">Мои</h1>
+        <div class="hobbies-container">
+          <div class="vertical-text">
+            <p style="transform: rotate(180deg);">Хобби</p>
+          </div>
+          <ol class="list">
+            <li>Чтение книг</li>
+            <li>Игры</li>
+            <li>Спорт: бег, плавание</li>
+            <li>Программирование на скорость</li>
+          </ol>
+        </div>
+        
+      </div>
+
+      
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>Приложение для обучения детей английскому</td>
+            <td>Rive, Figma, Photoshop</td>
+            <td>2019 - 2020</td>
+          </tr>
+          <tr>
+            <td>Анализатор сетевого трафика</td>
+            <td>V.S.Code, Qt</td>
+            <td>2021 - 2022</td>
+          </tr>
+        </table>
+      </div>
+
+    
+      <div class="card bg-red">
+        <h2>О моём обучении</h2>
+        <pre>   Занимаюсь программированием с 8-ми лет, начинал с базовых вещей на <strong>C++</strong>,
+продолжил через 4 года более активно. Через пару месяцев взялся за <strong>Arduino</strong> с не
+большой командой. На протяжении следующего времени до настоящего момента занима-
+лся на платформе <strong>SoloLearn</strong>. В последние 2 года активно начал заниматься <strong>Piton,
+Pascal, C++, С#, SQL, JS, Angular, HTML & CSS.</strong> В основном проходил бесплатные 
+курсы на <strong>YouTube</strong>, так же использовал множество сайтов и <strong>ИИ</strong>.
+        </pre>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name">Ваше имя:</label>
+              <input type="text" id="name" placeholder="Введите ваше имя...">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Ваш email:</label>
+              <input type="email" id="email" placeholder="Введите email...">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="text">Вашe сообщение:</label>
+            
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Отправить">
+        </form>
+      </div>
+
+
+      <div class="position">
+        <div class="box"></div>
+      </div>
+    </div>
+
+    
+
+    <div style="margin-bottom: 500px;;"></div>
+  </body>
+</html>
